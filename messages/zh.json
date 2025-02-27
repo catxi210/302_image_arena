@@ -1,0 +1,175 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "common": {
+    "random": "随机",
+    "selectModel": "选择模型",
+    "searchModels": "搜索模型...",
+    "noModelFound": "未找到模型",
+    "selectedCount": "已选择 {count} 个",
+    "pagination": {
+      "previous": "上一页",
+      "next": "下一页",
+      "more_pages": "更多页面"
+    }
+  },
+  "global": {
+    "error": {
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "copy_failed": "复制失败",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    },
+    "model_pk_guide": {
+      "trigger": {
+        "label": "打开模型竞技场使用指南"
+      },
+      "title": "模型PK",
+      "description": "根据描述，随机或自选两个模型生成图片进行对比。",
+      "warning": "注意：不能重复选择一个模型。",
+      "voting": {
+        "description": "您可以在图片下方进行投票，投票成功后，将在下方显示图片生成所使用的模型名称。",
+        "ranking": "您所投的每一票都将计入您的排行榜，供您参考模型的美学表现。"
+      },
+      "image_generation": {
+        "title": "图片生成",
+        "description": "根据描述，您可以选择多个模型同时生成多张图片。"
+      },
+      "prompt_optimization": {
+        "title": "提示词优化",
+        "description": "提示词优化增强了您的初始提示，以提高对图像内容的表达。",
+        "translation": "您可以使用任何语言进行描述，它会翻译成英语。"
+      }
+    }
+  },
+  "history": {
+    "loading": "加载中...",
+    "typeGen": "图片生成",
+    "typePk": "模型PK",
+    "prompt": "提示词",
+    "winner": "{model} 获胜",
+    "tie": "平局",
+    "page": "第 {current} 页，共 {total} 页",
+    "imageCount": "张图片"
+  },
+  "home": {
+    "header": {
+      "title": "图片竞技场"
+    }
+  },
+  "leaderBoard": {
+    "model": "模型",
+    "creator": "创建者",
+    "name": "名称",
+    "winRate": "胜率",
+    "score": "得分",
+    "selections": "选择次数",
+    "appearances": "出场次数",
+    "loading": "加载中...",
+    "empty": "暂无排行榜数据"
+  },
+  "modelGen": {
+    "error": {
+      "generate_failed": "生成失败",
+      "no_model": "请先选择模型",
+      "no_prompt": "请先输入提示词",
+      "no_resolution": "请先选择分辨率"
+    },
+    "gallery": {
+      "description": "这里展示了您所有生成过的图片，最新生成的图片会显示在最前面",
+      "emptyMessage": "来试试生成好看的图片吧！",
+      "promptTitle": "提示词",
+      "title": "生成历史"
+    },
+    "generate": "生成",
+    "model": "模型",
+    "modelPlaceholder": "选择模型",
+    "no": "否",
+    "optimize": "优化提示词",
+    "promptPlaceholder": "在此处输入您的提示",
+    "resolution": "分辨率",
+    "resolutionPlaceholder": "选择图片比例",
+    "yes": "是"
+  },
+  "modelPk": {
+    "aspectRatio": "{ratio} 比例",
+    "error": {
+      "generate_failed": "生成失败",
+      "no_model": "请先选择模型",
+      "no_prompt": "请先输入提示词",
+      "no_resolution": "请先选择分辨率",
+      "left_generate_failed": "左侧图片生成失败",
+      "right_generate_failed": "右侧图片生成失败",
+      "update_leaderboard_failed": "排行榜更新失败"
+    },
+    "generate": "生成",
+    "generating": "生成中",
+    "leftBetter": "左边更好",
+    "leftModelPreview": "左侧模型生成的结果",
+    "leftModelFailed": "左侧模型生成失败",
+    "rightModelFailed": "右侧模型生成失败",
+    "model": "模型",
+    "modelPlaceholder": "选择模型",
+    "no": "否",
+    "optimize": "优化提示词",
+    "promptPlaceholder": "在此处输入您的提示",
+    "random": "随机",
+    "ratioDescriptions": {
+      "landscapeNineSixteen": "横向",
+      "landscapeThreeFour": "横向",
+      "landscapeTwoThree": "横向",
+      "portraitNineSixteen": "竖向",
+      "portraitThreeFour": "竖向",
+      "portraitTwoThree": "竖向",
+      "square": "正方形"
+    },
+    "resolution": "分辨率",
+    "resolutionPlaceholder": "选择图片比例",
+    "rightBetter": "右边更好",
+    "rightModelPreview": "右侧模型生成的结果",
+    "skip": "跳过",
+    "winner": "获胜",
+    "yes": "是"
+  },
+  "tabs": {
+    "leaderBoard": "排行榜",
+    "leaderBoardContent": "排行榜内容",
+    "loading": "加载中...",
+    "modelGen": "图片生成",
+    "modelPk": "模型PK",
+    "history": "历史记录"
+  }
+}

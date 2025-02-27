@@ -1,0 +1,175 @@
+{
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "コードを共有する必要がある"
+  },
+  "common": {
+    "random": "ランダム",
+    "selectModel": "モデルを選択",
+    "searchModels": "モデルを検索...",
+    "noModelFound": "モデルが見つかりません",
+    "selectedCount": "{count}個 選択済み",
+    "pagination": {
+      "previous": "前へ",
+      "next": "次へ",
+      "more_pages": "その他のページ"
+    }
+  },
+  "global": {
+    "error": {
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "copy_failed": "コピーに失敗しました",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後ほど再試行してください",
+      "not_found": "ページが存在しません",
+      "tool_deleted": "このツールは削除されました。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "tool_disabled": "このツールは無効になっています。詳細については、<site>302.AI</site> にアクセスしてください。",
+      "unknown_error": "不明なエラーが発生しました。サポートにお問い合わせください"
+    },
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムデフォルト",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    },
+    "model_pk_guide": {
+      "description": "説明に基づいて、ランダムまたは選択したモデルで画像を生成し比較します。",
+      "image_generation": {
+        "description": "説明に基づいて、複数のモデルを選択して同時に複数の画像を生成できます。",
+        "title": "画像生成"
+      },
+      "prompt_optimization": {
+        "description": "プロンプト最適化は、画像内容の表現を向上させるために初期プロンプトを強化します。",
+        "title": "プロンプト最適化",
+        "translation": "任意の言語で記述でき、英語に翻訳されます。"
+      },
+      "title": "モデルアリーナ",
+      "trigger": {
+        "label": "モデルアリーナガイドを開く"
+      },
+      "voting": {
+        "description": "各画像の下で投票できます。投票後、その画像の生成に使用されたモデルが下に表示されます。",
+        "ranking": "投票はすべてランキングに反映され、モデルの美的性能を評価する参考になります。"
+      },
+      "warning": "注意：同じモデルを2回選択することはできません。"
+    }
+  },
+  "history": {
+    "loading": "読み込み中...",
+    "typeGen": "画像生成",
+    "typePk": "モデルPK",
+    "prompt": "プロンプト",
+    "winner": "{model} が勝利",
+    "tie": "引き分け",
+    "page": "ページ {current} / {total}",
+    "imageCount": "枚の画像"
+  },
+  "home": {
+    "header": {
+      "title": "画像アリーナ"
+    }
+  },
+  "leaderBoard": {
+    "appearances": "出演回数",
+    "creator": "クリエイター",
+    "loading": "読み込み中...",
+    "model": "モデル",
+    "name": "名前",
+    "score": "スコア",
+    "selections": "選択数",
+    "winRate": "勝率",
+    "empty": "リーダーボードのデータがありません"
+  },
+  "modelGen": {
+    "error": {
+      "generate_failed": "生成に失敗しました",
+      "no_model": "モデルを選択してください",
+      "no_prompt": "プロンプトを入力してください",
+      "no_resolution": "解像度を選択してください"
+    },
+    "gallery": {
+      "description": "生成した画像がすべて表示されます。最新の画像が最初に表示されます",
+      "emptyMessage": "素敵な画像を生成してみましょう！",
+      "promptTitle": "プロンプト",
+      "title": "生成履歴"
+    },
+    "generate": "生成",
+    "model": "モデル",
+    "modelPlaceholder": "モデルを選択",
+    "no": "いいえ",
+    "optimize": "最適化されたリマインダー",
+    "promptPlaceholder": "プロンプトを入力してください",
+    "resolution": "解像度",
+    "resolutionPlaceholder": "アスペクト比を選択",
+    "yes": "はい"
+  },
+  "modelPk": {
+    "aspectRatio": "{ratio} 比率",
+    "error": {
+      "generate_failed": "ビルドに失敗しました",
+      "left_generate_failed": "左側の画像生成に失敗しました",
+      "no_model": "最初にモデルを選択してください",
+      "no_prompt": "最初にプロンプ​​トの単語を入力してください",
+      "no_resolution": "最初に解像度を選択してください",
+      "right_generate_failed": "右側の画像生成に失敗しました",
+      "update_leaderboard_failed": "ランキングの更新に失敗しました"
+    },
+    "generate": "生成",
+    "generating": "生成中",
+    "leftBetter": "左の方が良い",
+    "leftModelFailed": "左モデルで生成できません",
+    "leftModelPreview": "左モデルの結果",
+    "model": "モデル",
+    "modelPlaceholder": "モデルを選択",
+    "no": "いいえ",
+    "optimize": "最適化プロンプトの言葉",
+    "promptPlaceholder": "プロンプトを入力してください",
+    "random": "ランダム",
+    "ratioDescriptions": {
+      "landscapeNineSixteen": "横向き",
+      "landscapeThreeFour": "横向き",
+      "landscapeTwoThree": "横向き",
+      "portraitNineSixteen": "縦向き",
+      "portraitThreeFour": "縦向き",
+      "portraitTwoThree": "縦向き",
+      "square": "正方形"
+    },
+    "resolution": "解像度",
+    "resolutionPlaceholder": "アスペクト比を選択",
+    "rightBetter": "右の方が良い",
+    "rightModelFailed": "右モデル生成障害",
+    "rightModelPreview": "右モデルの結果",
+    "skip": "スキップ",
+    "winner": "勝つ",
+    "yes": "はい"
+  },
+  "tabs": {
+    "history": "歴史",
+    "leaderBoard": "ランキング",
+    "leaderBoardContent": "ランキングの内容",
+    "loading": "読み込み中...",
+    "modelGen": "画像生成",
+    "modelPk": "モデルPK"
+  }
+}
